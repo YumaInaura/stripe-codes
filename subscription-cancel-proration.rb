@@ -58,6 +58,7 @@ def create_subscription_and_cancel(name:, cancel_at_type:, prorate_in_update:)
       prorate: prorate_in_update
   )
 
+  puts
   puts '=' * 100
   puts "#{name} SUBSCRIPTION"
   puts '-' * 100
